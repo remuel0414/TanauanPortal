@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/TanauanPortal/', // Set the base URL to the relative path of your GitHub Pages URL
+  base: '/https://github.com/remuel0414/TanauanPortal.git/', // Set the base URL to the relative path of your GitHub Pages URL
   plugins: [react()],
   server: {
     port: 3000,
